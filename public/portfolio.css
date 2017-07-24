@@ -1,0 +1,94 @@
+body {
+  background-color: #151414;
+  color: #7d7a7a;
+  font-family: "Lucida Grande";
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+  border-radius: 25px;
+}
+
+
+#bio{
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+}
+
+.bio p {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  padding: 2% 30%;
+}
+
+.project-head {
+  display: flex;
+  justify-content: center;
+}
+
+#projects-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#repl {
+  /*padding-top: 2%;*/
+  padding-bottom: 2%;
+}
+
+.contact h2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+}
+.contact #contact-items {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+#cell{
+  padding-bottom: 2%;
+}
+
+#social {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+#twitter {
+  padding-bottom: 15%;
+  padding-top: 2%
+}
+
+#github {
+  padding-bottom: 15%;
+  padding-top: 2%;
+}
